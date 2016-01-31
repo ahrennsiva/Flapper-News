@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #231e1e;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+#container {
+    background: #f0f0f0;
+    padding: 0;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.form-control, .btn {
+    border-radius: 0px;
+}
+.btn-primary {
+    background: #00b7c7;
+    border: none;
+}
+.btn-primary:hover {
+    background: #009aa5;
+}
+.page-header {
+    background: #00b7c7;
+    margin-top: 0;
+    padding: 10px 25px;
+}
+.posts-container {
+    padding: 0px 25px;
+}
+.post {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.new-post {
+    margin-top: 30px;
+    padding: 0px 25px;
+}
